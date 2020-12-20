@@ -1,0 +1,175 @@
+/*!
+
+ */
+
+ @font-face {
+     src: url(../fonts/JFFlatregular.ttf);
+     font-family: ar-font;
+}
+
+ body {
+   direction: rtl;
+  font-family: ar-font;
+  font-size: 16px;
+}
+
+header.top__header nav {
+  background-color: wheat;
+}
+
+header.top__header nav button {
+  background-color: orange;
+}
+
+header.top__header nav ul {
+  padding: 0;
+}
+
+header.top__header nav ul li:hover,
+header.top__header nav ul li:active,
+header.top__header nav ul li:focus {
+  background-color: rgba(255, 0, 0, 0.5);
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+}
+
+header.top__header nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.title h3 {
+  font-weight: 600;
+  font-size: 26px;
+  margin: 40px 0;
+}
+
+.about-me p {
+  text-align: justify;
+  border: 3px inset orange;
+  padding: 12px;
+}
+
+.answers .icon p {
+  font-weight: 600;
+}
+
+.answers .icon img {
+  height: 60px;
+}
+
+.image_price img {
+  height: 520px;
+  margin-right: 0;
+  margin-bottom: 25px;
+}
+
+footer {
+  margin-top: 30px;
+  background-color: wheat;
+  padding: 30px;
+}
+
+.FAQ svg {
+  font-size: 20px;
+  margin-left: 5px;
+  color: orangered;
+}
+
+.FAQ a {
+  text-decoration: none;
+  color: orangered;
+  transition: all 0.5s ease-in-out;
+  font-weight: 600;
+}
+
+.FAQ a:hover,
+.FAQ a:focus,
+.FAQ a:active {
+  color: orange;
+}
+
+.FAQ p span {
+  color: orangered;
+  font-weight: 600;
+}
+
+.social-media ul {
+  padding: 0;
+}
+
+.social-media ul li {
+  margin-right: 0px !important;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: orange;
+  margin-left: 10px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+}
+
+.social-media ul li:hover,
+.social-media ul li:active,
+.social-media ul li:focus {
+  background-color: orangered;
+}
+
+.social-media ul li a {
+  text-decoration: none;
+}
+
+.social-media ul li a svg:hover,
+.social-media ul li a svg:active,
+.social-media ul li a svg:focus {
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+
+.social-media ul li svg {
+  color: black;
+  font-size: 22px;
+}
+
+/* Responsive page */
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .image_price img {
+    height: 300px;
+  }
+
+  div#my-video {
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  div#my-video {
+    width: 100%;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  div#my-video {
+    margin-right: 8%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .image_price img {
+    height: 370px;
+  }
+
+  div#my-video {
+    width: 460px;
+}
+}
+
+@media (min-width: 1200px) {
+  /* Goood Responsive */
+}

@@ -51,12 +51,8 @@ header.top__header nav ul li a {
   padding: 12px;
 }
 
-.answers .icon p {
-  font-weight: 600;
-}
-
-.answers .icon img {
-  height: 60px;
+div#my-video {
+  margin-right: 23%;
 }
 
 .image_price img {
@@ -144,12 +140,14 @@ footer {
 
   div#my-video {
     width: 100%;
+    margin-right: 0%;
   }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   div#my-video {
     width: 100%;
+    margin-right: 0%;
   }
 
 }
